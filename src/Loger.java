@@ -42,7 +42,7 @@ public class Loger {
                 .append(secretStr)
                 .append("\n");
         writer.close();
-        System.out.println(secretStr);
+        //System.out.println(secretStr);
     }
 
     public void writeAttempt(int cows, int bulls, String str) throws IOException {
